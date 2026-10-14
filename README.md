@@ -7,6 +7,18 @@ Data: https://www.kaggle.com/datasets/nolanbconaway/pitchfork-data
 SQL techniques: JOIN, GROUP BY, HAVING, CTE, window functions (RANK), CASE WHEN, subqueries.
 Run: open `database.sqlite` (from Kaggle) in SQLite or DB Browser and execute `analysis.sql`.
 
+## Visualization
+
+A Power BI report visualizes yearly score trends, reissue ratings, genre differences,
+and the top 10 labels by average review score using CSV exports from the SQL analysis.
+
+![Pitchfork Reviews Power BI Dashboard](pitchfork_dashboard.png)
+
+[Download the Power BI report](pitchfork_dashboard.pbix)
+
+Genre counts overlap. Reissues are identified by title keywords. The yearly trend
+excludes the partial years 1999 and 2017.
+
 ## Key findings
 
 1. **Reissues score much higher.** Reviews of reissues, anniversary editions and anthologies
